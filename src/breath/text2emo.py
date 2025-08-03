@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 from collections import defaultdict
 
 nltk.download('punkt')
-nltk.download('punkt_tab')  # 👈 Add this line
+nltk.download('punkt_tab')  
 
 
 # Get current script directory
@@ -26,7 +26,7 @@ for _, row in nrc.iterrows():
     emotion_dict[row["word"]].append(row["emotion"])
 
 # Sample input text
-text = "iam doing sooo much homework, its a lot but iam completing them it"
+text = "Iam so relaxed right now, iam playing with me children and they are laughing and jumping around"
 
 # Tokenize and lower
 tokens = word_tokenize(text.lower())
