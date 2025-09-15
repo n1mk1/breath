@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import matplotlib.pyplot as plt
 import numpy as np
 
-# ------------------ LOAD DATA ------------------
+# LOAD DATA 
 client = MongoClient("mongodb://localhost:27017/")
 db = client["breathing_analysis"]
 collection = db["records"]
@@ -16,7 +16,7 @@ filename = data["audio_file"]
 # Convert to breaths per minute
 breaths_per_min = [entry["breaths_per_sec"] * 60 for entry in rate_data]
 
-# ------------------ SLEEP STAGE CLASSIFICATION ------------------
+#  SLEEP STAGE CLASSIFICATION 
 sleep_stages = []
 stage_labels = []
 
@@ -33,7 +33,7 @@ for bpm in breaths_per_min:
     sleep_stages.append(stage)
     stage_labels.append(stage[:1])  # A, L, D, etc.
 
-# ------------------ PLOT ------------------
+#  PLOT 
 plt.figure(figsize=(14, 5))
 plt.plot(breaths_per_min, label="Breathing Rate (BPM)", color='blue')
 plt.title(f"Estimated Sleep Stages - {filename}")

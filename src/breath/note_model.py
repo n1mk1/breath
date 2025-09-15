@@ -104,7 +104,7 @@ def train_model(notes):
     with open("note_label_encoder.pkl", "wb") as f:
         pickle.dump(label_encoder, f)
 
-    print("✅ Model training complete and saved.")
+    print("Model training complete and saved.")
 
 # ------------------ Example ------------------
 if __name__ == "__main__":

@@ -59,7 +59,7 @@ def anomaly_scores(note_sequence):
 # ------------------ Compare Files ------------------
 def compare_files(base_file, test_file):
     try:
-        print(f"\n🔍 Comparing: {os.path.basename(base_file)} ↔ {os.path.basename(test_file)}")
+        print(f"\n Comparing: {os.path.basename(base_file)} ↔ {os.path.basename(test_file)}")
 
         base_notes, _, _ = breathing_to_notes.extract_notes(base_file)
         test_notes, _, _ = breathing_to_notes.extract_notes(test_file)
