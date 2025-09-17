@@ -5,6 +5,11 @@
 | ![Pitch Concept Test](./sleep3.png) | ![Anomaly Score Comparison](./sleep4.png) |
 
 
+> ### *"In countries where advanced analysis machines are not affordable, this system gives doctors a low-cost way to get an initial look at a patient’s breathing patterns and flag potential irregularities.  
+> It can even be tested with simple phone recordings.  
+> My very first idea? Stick an earbud up the nose and hope the mic picks up the breathing. Surprisingly, it kind of worked.  
+> But for testing purposes I stuck to stock audio instead of… nasal karaoke."*
+
 # Respiratory & Sleep Analysis System  
 
 ## Project Description  
@@ -20,7 +25,6 @@ The goal is to create an preliminary, testing- tool that bridges signal processi
 - Breathing patterns reveal a lot about a person’s health and stress state.  
 - Sleep stages are often measured with costly equipment; this project explores a low-cost, audio-based alternative.  
 - By experimenting with signal-to-note conversion and anomaly detection, this project explores creative and explainable ways to analyze physiological data.
-- In countries where advanced analysis machines are not affordable, this system provides doctors with an accessible way to gain an initial understanding of a patient’s breathing patterns and identify preliminary irregularities.
 
 ---
 
@@ -54,6 +58,7 @@ The goal is to create an preliminary, testing- tool that bridges signal processi
 ---
 
 I am continuing to review research papers to identify optimal approaches, as there are more accurate models available. My future plan is to integrate this system with existing datasets and leverage my experience with AI and Retrieval-Augmented Generation (RAG) to achieve more consistent results.
+
 
 
 
