@@ -1,3 +1,4 @@
+![d][sleep1.png]
 # Respiratory & Sleep Analysis System  
 
 ## Project Description  
@@ -47,3 +48,4 @@ The goal is to create an interpretable, research-friendly tool that bridges sign
 ---
 
 I am continuing to review research papers to identify optimal approaches, as there are more accurate models available. My future plan is to integrate this system with existing datasets and leverage my experience with AI and Retrieval-Augmented Generation (RAG) to achieve more consistent results.
+
