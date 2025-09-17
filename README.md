@@ -11,7 +11,7 @@
 
 This project is a Python-based respiratory and sleep analysis pipeline. It detects breathing cycles, estimates sleep stages, and applies machine learning for anomaly detection. The system maps audio signals (breathing sounds) to both health insights (breathing rate, sleep stages) and musical notes for interpretability.  
 
-The goal is to create an interpretable, research-friendly tool that bridges signal processing and machine learning for health monitoring.  
+The goal is to create an preliminary, testing- tool that bridges signal processing and machine learning for health monitoring.
 
 ---
 
@@ -54,6 +54,7 @@ The goal is to create an interpretable, research-friendly tool that bridges sign
 ---
 
 I am continuing to review research papers to identify optimal approaches, as there are more accurate models available. My future plan is to integrate this system with existing datasets and leverage my experience with AI and Retrieval-Augmented Generation (RAG) to achieve more consistent results.
+
 
 
 
