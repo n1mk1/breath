@@ -1,5 +1,5 @@
 ![Breathing Pattern Detection](./sleep1.png)
-![Sleep 1](./sleep1.png)  
+![Sleep Stages Analysis](./sleep1.png)  
 ![Sleep 2](./sleep2.png)  
 ![Sleep 3](./sleep3.png)  
 ![Sleep 4](./sleep4.png)
@@ -53,5 +53,6 @@ The goal is to create an interpretable, research-friendly tool that bridges sign
 ---
 
 I am continuing to review research papers to identify optimal approaches, as there are more accurate models available. My future plan is to integrate this system with existing datasets and leverage my experience with AI and Retrieval-Augmented Generation (RAG) to achieve more consistent results.
+
 
 
