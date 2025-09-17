@@ -1,4 +1,9 @@
-![Sleep Analysis][./sleep1.png]
+![Breathing Pattern Detection](./sleep1.png)
+![Sleep 1](./sleep1.png)  
+![Sleep 2](./sleep2.png)  
+![Sleep 3](./sleep3.png)  
+![Sleep 4](./sleep4.png)
+
 # Respiratory & Sleep Analysis System  
 
 ## Project Description  
